@@ -69,7 +69,7 @@ const TimelineSection = () => {
         </div>
       </div>
 
-      <div className="container overflow-hidden border-x pb-40 lg:pt-20 [&>*:last-child]:pb-20 [&>div>div:first-child]:pt-20!">
+      <div className="container mx-auto overflow-hidden border-x pb-40 lg:pt-20 [&>*:last-child]:pb-20 [&>div>div:first-child]:pt-20!">
         {DATA.map((item, index) => (
           <div key={index} className="relative flex">
             <div
